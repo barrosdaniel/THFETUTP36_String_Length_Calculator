@@ -15,6 +15,6 @@ var string1 = prompt('Enter first phrase.');
 var string2 = prompt('Enter second phrase.');
 var addedString = string1.toUpperCase() + " " + string2.toUpperCase();
 var addedStringLength = addedString.length;
-var message = 'The string ' + addedString + ' is ' + addedStringLength + ' characters long.';
+var message = 'The string \"' + addedString + '\" is ' + addedStringLength + ' characters long.';
 
 alert(message);
